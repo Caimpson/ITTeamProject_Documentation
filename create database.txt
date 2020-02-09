@@ -1,3 +1,5 @@
+create schema toptrumps
+
 create table toptrumps.stats(
 gameid int primary key,
 winhuman int,
@@ -11,4 +13,4 @@ cpu3rounds int,
 cpu4rounds int)
 
 insert into toptrumps.stats(gameid, winhuman, winai, draws, rounds, humanrounds, cpu1rounds, cpu2rounds, cpu3rounds, cpu4rounds)
-values(0,1,0,5,39,28,3,6,0,2)
+values(1,1,0,5,39,28,3,6,0,2)
